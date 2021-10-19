@@ -12,7 +12,7 @@
 
 - Ref : 
 
-  - [인프런 > 김영한 > 스프링 입문](
+  - [인프런 > 김영한 > 스프링 입문](https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard)
 
 
 
