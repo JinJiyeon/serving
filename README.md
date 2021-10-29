@@ -27,6 +27,16 @@
 
 
 
+#### 97_Elastic Search
+
+- 목적 : Elastic Search의 구조와 특징을 파악한다
+- 기간 : 2021/10/26 ~ 2021/10/27
+- Ref : 
+
+  - [기술 블로그](https://sudarlife.tistory.com/entry/Elasticsearch-간단-개념-장단?category=1114901)
+
+
+
 #### 98_Spring
 
 - 목적 : class 기반 프로그래밍을 학습한다
