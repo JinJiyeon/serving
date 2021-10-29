@@ -27,6 +27,28 @@
 
 
 
+#### 96_Logging Tool
+
+- 목적 : Logging Tool의 구조와 사용법을 알자
+
+- 기간 : 2021/10/27 ~ 2021/10/28
+
+- Ref : 
+
+  - [데이터 분석가 입장에서 로그 분석하기 : 로그 분석의 방향성과 주제](https://techblog.woowahan.com/2536/)
+
+  - [개발자+데분가+기획자 입장에서 로그 기획하기 : 전사. 로그 룰과 틀 잡기](https://speakerdeck.com/devinjeon/jamag-ndc19-joheun-rogeuran-mueosinga-joheun-rogeureul-wihae-goryeohaeya-hal-geosdeul?slide=10)
+
+  - [개발자 입장에서 로그 시스템 구축하기 : 로그 아키텍쳐](https://www.slideshare.net/ssuser380e9c/ndc18-2-95522893)
+
+  - [로그 관련 글 모음](https://zzsza.github.io/data/2021/06/13/data-event-log-definition/)
+
+  - [파이썬 logging docs](https://zzsza.github.io/data/2021/06/13/data-event-log-definition/)
+
+  - [자바 logback docs](http://logback.qos.ch)
+
+
+
 #### 97_Elastic Search
 
 - 목적 : Elastic Search의 구조와 특징을 파악한다
