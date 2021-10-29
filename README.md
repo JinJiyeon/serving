@@ -27,7 +27,7 @@
 
 
 
-#### 96_Logging Tool
+#### [96_Logging Tool](96_LoggingTool)
 
 - 목적 : Logging Tool의 구조와 사용법을 알자
 
@@ -49,7 +49,7 @@
 
 
 
-#### 97_Elastic Search
+#### [97_Elastic Search](97_ElasticSearch)
 
 - 목적 : Elastic Search의 구조와 특징을 파악한다
 - 기간 : 2021/10/26 ~ 2021/10/27
@@ -59,7 +59,7 @@
 
 
 
-#### 98_Spring
+#### [98_Spring](98_Spring)
 
 - 목적 : class 기반 프로그래밍을 학습한다
 
@@ -71,7 +71,7 @@
 
 
 
-#### 99_Scala 
+#### [99_Scala](99_Scala)
 - 목적 : spark의 주요 언어인 scala를 이해한다
 
 - 기간 : 2021/10/11 ~ 2021/10/14
