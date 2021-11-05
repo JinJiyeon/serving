@@ -25,7 +25,12 @@
 
 상세정보 : 주요내용 / 주안점 & 강점 / 어려웠던 점
 
+#### [95_Spark](./95_Spark)
 
+- 목적 : Spark의 구조, 장단점, 운영 상의 주의점 등을 알자
+- 기간 : 2021/10/21 ~ 2021/11/04
+- Ref : 
+  - [아파치 > 스파크 > 닥스](https://spark.apache.org/docs/2.3.1/api/scala/index.html#org.apache.spark.sql.Dataset)
 
 #### [96_Logging Tool](96_LoggingTool)
 
