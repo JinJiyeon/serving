@@ -31,6 +31,7 @@
 - 기간 : 2021/11/05 ~ 2021/11/08
 - Ref :
   - 책 <실전 아파치 카프카>
+  - 유튜브 [[Kafka의 등장배경\]](https://www.youtube.com/watch?v=waw0XXNX-uQ)
 
 
 
