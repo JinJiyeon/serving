@@ -3,10 +3,18 @@
 #### [93_동시성 개념](./93_동시성_개념)
 
 - 목적 : 멀티스레드 프로그램을 구현하는 데 필요한 개념을 이해하자
+
 - 기간 : 2021/11/09 ~ 2021/11/12
+
 - Ref : 
-  - 유튜브 얄팍한 코딩사전
-  - 기술 블로그
+
+  - 프로세스와 스레드 : [[영상\]](https://youtu.be/iks_Xb9DtTM)
+  - 락 : [[블로그\]](https://popcorntree.tistory.com/84?category=813524)
+
+  - 뮤텍스와 세마포어 : [[블로그\]](https://worthpreading.tistory.com/90) [[블로그\]](https://jwprogramming.tistory.com/13)
+  - 데드락 : [[블로그\]](https://chanhuiseok.github.io/posts/cs-2/)
+  - 함수형 프로그래밍 : [[얄코\]](https://youtu.be/jVG5jvOzu9Y)
+  - 액터모델 : [[영상\]](https://www.youtube.com/watch?v=ELwEdb_pD0k) [[블로그\]](https://github.com/funfunStudy/study/wiki/32장-액터와-동시성)
 
 
 
