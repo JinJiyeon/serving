@@ -4,16 +4,16 @@
 
 ### 🏆미션
 
-데이터 엔지니어링에 필요한 개념을 하나씩 학습
+서빙에 필요한 개념을 정리하자
 
 
 
 ### 🧑🏻‍💻과제 리스트
 
-- spark
-- scala
-- sbt / gradle
-- 프레임워크
+- spark, kafka, hadoop 등 툴
+- multi-thread, lock 등 운영체제 
+- akka, async 등 네트워크
+- concurrent library
 
 
 
@@ -27,48 +27,63 @@
 
 
 
-#### [92_Concurrent_collections](./92_Concurrent_collections)
+#### [94_ConcurrentLibrary](./94_ConcurrentLibrary)
 
-- 목적 : 멀티스레드 프로그램을 구현하는 데 필요한 구현체를 학습하자
+- 목적 : 멀티스레드 프로그램을 구현하는 데 필요한 구현체와 내부 구조를 분석해보자.
 - 기간 : 2021/11/14 ~ 
 - Ref :
   - [Java 8 Concurrency Tutorial](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
 
 
 
+#### [95_MultiThread](./95_MultiThread)
 
-
-#### [93_동시성 개념](./93_동시성_개념)
-
-- 목적 : 멀티스레드 프로그램을 구현하는 데 필요한 개념을 이해하자
-
+- 목적 : 빅 데이터를 소화하기 위해서는 멀티스레드를 활용해야 한다.
 - 기간 : 2021/11/09 ~ 2021/11/12
+- Ref : 
+  - 운영체제 / 이화여대 반효경 교수
+  - 기술 블로그
+
+
+
+#### [96_Elastic Search](96_ElasticSearch)
+
+- 목적 : Kafka로 처리한 데이터를 저장할 때에, HDFS나 ES에 저장한다
+- 기간 : 2021/10/26 ~ 2021/10/27
+- Ref : 
+
+  - [기술 블로그](https://sudarlife.tistory.com/entry/Elasticsearch-간단-개념-장단?category=1114901)
+
+
+
+#### [97_Logging Tool](97_LoggingTool)
+
+- 목적 : 로그는 대표적인 스트림 데이터이다. 로그를 남기는 Logging Tool의 구조와 사용법을 알자
+
+- 기간 : 2021/10/27 ~ 2021/10/28
 
 - Ref : 
 
-  - 프로세스와 스레드 : [[영상\]](https://youtu.be/iks_Xb9DtTM)
-  - 락 : [[블로그\]](https://popcorntree.tistory.com/84?category=813524)
+  - [로그 관련 글 모음](https://zzsza.github.io/data/2021/06/13/data-event-log-definition/)
 
-  - 뮤텍스와 세마포어 : [[블로그\]](https://worthpreading.tistory.com/90) [[블로그\]](https://jwprogramming.tistory.com/13)
-  - 데드락 : [[블로그\]](https://chanhuiseok.github.io/posts/cs-2/)
-  - 함수형 프로그래밍 : [[얄코\]](https://youtu.be/jVG5jvOzu9Y)
-  - 액터모델 : [[영상\]](https://www.youtube.com/watch?v=ELwEdb_pD0k) [[블로그\]](https://github.com/funfunStudy/study/wiki/32장-액터와-동시성)
 
-  
 
-#### [94_Kafka](./94_Kafka)
 
-- 목적 : 스트림의 의미를 이해하자. 카프카의 내부 구조를 알자
+#### [98_Kafka](./98_Kafka)
+
+- 목적 : 스트림 처리를 위해 활용한다. Kafka의 구조, 운영에 대해 알자
+
 - 기간 : 2021/11/05 ~ 2021/11/08
+
 - Ref :
+
   - 책 <실전 아파치 카프카>
-  - 유튜브 [[Kafka의 등장배경\]](https://www.youtube.com/watch?v=waw0XXNX-uQ)
 
+    
 
+#### [99_Spark](./99_Spark)
 
-#### [95_Spark](./95_Spark)
-
-- 목적 : Spark의 구조, 장단점, 운영 상의 주의점 등을 알자
+- 목적 : 빅 데이터의 dataframe을 빠르게 조작한다. Spark의 구조, 장단점, 운영 상의 주의점 등을 알자
 
 - 기간 : 2021/10/21 ~ 2021/11/04
 
@@ -77,59 +92,6 @@
   - [아파치 > 스파크 > 닥스](https://spark.apache.org/docs/2.3.1/api/scala/index.html#org.apache.spark.sql.Dataset)
 
     
-
-#### [96_Logging Tool](96_LoggingTool)
-
-- 목적 : Logging Tool의 구조와 사용법을 알자
-
-- 기간 : 2021/10/27 ~ 2021/10/28
-
-- Ref : 
-
-  - [데이터 분석가 입장에서 로그 분석하기 : 로그 분석의 방향성과 주제](https://techblog.woowahan.com/2536/)
-
-  - [개발자+데분가+기획자 입장에서 로그 기획하기 : 전사. 로그 룰과 틀 잡기](https://speakerdeck.com/devinjeon/jamag-ndc19-joheun-rogeuran-mueosinga-joheun-rogeureul-wihae-goryeohaeya-hal-geosdeul?slide=10)
-
-  - [개발자 입장에서 로그 시스템 구축하기 : 로그 아키텍쳐](https://www.slideshare.net/ssuser380e9c/ndc18-2-95522893)
-
-  - [로그 관련 글 모음](https://zzsza.github.io/data/2021/06/13/data-event-log-definition/)
-
-  - [파이썬 logging docs](https://zzsza.github.io/data/2021/06/13/data-event-log-definition/)
-
-  - [자바 logback docs](http://logback.qos.ch)
-
-
-
-#### [97_Elastic Search](97_ElasticSearch)
-
-- 목적 : Elastic Search의 구조와 특징을 파악한다
-- 기간 : 2021/10/26 ~ 2021/10/27
-- Ref : 
-
-  - [기술 블로그](https://sudarlife.tistory.com/entry/Elasticsearch-간단-개념-장단?category=1114901)
-
-
-
-#### [98_Spring](98_Spring)
-
-- 목적 : class 기반 프로그래밍을 학습한다
-
-- 기간 : 2021/10/15 ~ 2021/10/19
-
-- Ref : 
-
-  - [인프런 > 김영한 > 스프링 입문](https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard)
-
-
-
-#### [99_Scala](99_Scala)
-- 목적 : spark의 주요 언어인 scala를 이해한다
-
-- 기간 : 2021/10/11 ~ 2021/10/14
-
-- Ref : 
-
-  - 책 <누구나 쉽게 스칼라 + 플레이>
 
 
 
