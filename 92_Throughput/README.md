@@ -2,7 +2,7 @@
 
 #### 기본 정보
 
-- 목적 : http 요청에 응답하는 WAS와 throughput을 늘리는 방안에 대해 알아보자
+- 목적 : http 요청에 응답하는 throughput을 늘리는 방안 (WAS, Actor, proxy)에 대해 알아보자
 
 - 기간 : 2021/11 ~ 2021/12
 
