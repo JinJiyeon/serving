@@ -1,4 +1,4 @@
-# DE 스터디 기록
+# Serving / CS 스터디 기록
 
 
 
@@ -12,7 +12,7 @@
 
 - spark, kafka, hadoop 등 툴
 - multi-thread, lock 등 운영체제 
-- akka, async 등 네트워크
+- actor, async 등 네트워크
 - concurrent library
 
 
@@ -26,6 +26,46 @@
 상세정보 : 주요내용 / 주안점 & 강점 / 어려웠던 점
 
 
+
+#### [90_Jenkins](./90_Jenkins)
+
+- 목적 : 운영을 자동화하자
+
+- 기간 : 2021/01
+
+- Ref : 
+
+  
+
+#### [91_Evaluation](./91_Evaluation)
+
+- 목적 : 프로그램을 평가하는 툴에 대해 알아보자
+- 기간 : 2021/12
+- Ref :
+
+
+
+#### [92_Throughput](./92_Throughput)
+
+- 목적 : http 요청에 응답하는 WAS와 throughput을 늘리는 방안에 대해 알아보자
+
+- 기간 : 2021/11 ~ 2021/12
+
+- Ref :
+
+  
+
+#### [93_ActorModel](./93_ActorModel)
+
+- 목적 : 멀티스레드 프로그램을 구현하는 데 활용하는 Actor 모델과 활용성에 대해 알아보자
+
+- 기간 : 2021/11 ~ 2021/12
+
+- Ref :
+
+  - 책 <Akka 비동기 프로그래밍>
+
+    
 
 #### [94_ConcurrentLibrary](./94_ConcurrentLibrary)
 
