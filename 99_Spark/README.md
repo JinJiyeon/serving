@@ -61,12 +61,12 @@ itemDF.withColumn("leafCategory", when($"categoryLevel" === "4", itemDF("categor
 // udf를 활용한 복잡한 연산
 import org.apache.spark.sql.functions._
 
-val sampleUdf = udf( (categoryLevel: String, category1Id: String, category2Id: String, category3Id: String, category4Id: String ) => {
-    categoryLevel match {
-        case "4" => category4Id
-        case "3" => category3Id
-        case "2" => category2Id
-        case "1" => category1Id
+val sampleUdf = udf( (Nation: String, Korean: String, English: String, Japanese: String, Dutch: String ) => {
+    Nation match {
+        case "KR" => Korean
+        case "EN" => English
+        case "JP" => Japanese
+        case "DT" => Dutch
         case _ => "error"
     }
 } )
