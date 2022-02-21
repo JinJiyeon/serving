@@ -78,7 +78,7 @@
 
 #### [96_Elastic Search](96_ElasticSearch)
 
-- 목적 : Kafka로 처리한 데이터를 저장할 때에, HDFS나 ES에 저장한다
+- 목적 : Spark로 처리한 데이터를 저장할 때에, HDFS나 ES에 저장한다
 - 기간 : 2021/10/26 ~ 2021/10/27
 - Ref : 
 

@@ -10,7 +10,7 @@
 
 
 
-## 특징
+## 구조
 
 ![ES특징](./ES특징.png)
 
@@ -20,10 +20,8 @@
 
 
 
-## 구조
+## 패키지
 
 ![ES구조](./ES구조.png)
 
-ES는 ELK라는 세트로 활용된다. Elastic Search + Logstash + Kibana이다.
-
-Logstash에서 데이터를 ES에 저장하도록 변환하고, ES는 데이터를 저장하며, Kibana는 해당 데이터를 시각화해주는 툴이다. 
+ES는 ELK라는 세트로 활용된다. Elastic Search + Logstash + Kibana이다. 상술한 것처럼 저장 구조가 독특하기 때문에 일반적인 관계형 DB를 Logstash로 변환해서, ES에 저장한다. 그리고 해당 데이터를 시각화할 때에는 Kibana를 활용한다.
